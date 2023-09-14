@@ -1,0 +1,153 @@
+.body {
+  font-family: Verdana;
+}
+
+.container {
+  width: 150%;
+  max-width: 1200px;
+  height: 75%;
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+}
+
+.image {
+  width: 85%;
+  position: absolute;
+  top: 40%;
+  bottom: auto;
+  right: 70%;
+  left: 10%;
+
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 150%;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  left: 45%;
+  padding: 2%;
+}
+
+.footer {
+  position: absolute;
+  top: 115%;
+}
+
+.info {
+  font-size: 50%;
+  width: 60%;
+  text-align: left;
+  color: gray;
+}
+
+h1,
+h3 {
+  color: #0f1419;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 5.5vw;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200%;
+  height: 3.3rem;
+  border-radius: 10vw;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer {
+  padding: 1% 2%;
+}
+
+.footer nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.footer nav a,
+.footer nav div {
+  text-decoration: none;
+  font-size: 75%;
+  color: #536471;
+  margin: 0.50%;
+  text-transform: capitalize;
+  border-bottom: 1% solid transparent;
+}
+
+.footer nav a:hover {
+  border-bottom: 1% solid #536471;
+}
+.footer {
+  padding: 2%;
+}
+
+.footer nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-end;
+  
+}
+
+.footer nav a,
+.footer nav div {
+  text-decoration: none;
+  font-size: 13px;
+  color: #536471;
+  margin: .3rem .5rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid transparent;
+  transition: all .2s ease;
+}
+
+.footer nav a:hover {
+  border-bottom: 1px solid #536471;
+}
+@media(max-width: 1050px) {
+  .content {
+    order: -1;
+    max-width: 600px;
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .image {
+    height: 50vh;
+    flex:  0 1 100vw;
+  }
+
+  .button {
+    display: flex;
+  }
+
+  .btn {
+    width: 15rem;
+    margin-right: 1rem;
+  }
+
+  h1 {
+    font-size: 8vw;
+  }
+}
